@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>Show Landscapes</title>
+    <meta description='Show Page for Landscapes, a random routing practice App'
+    <meta charset='utf-8'/>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'randomrouting/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'randomrouting/style.css' %}">
+    <link rel="shortcut icon" href="{% static 'randomrouting/django_favicon.ico' %}">
+</head>
+<body>
+    <div id='wrapper'>
+        <h3>Your Random Image of the day:</h3>
+        <div id="randomimage">
+            <img src="{% get_static_prefix %}randomrouting/{{custfile}}" alt="Random Image based on user input"><img>
+        </div>
+    </div>
+</body>
+<footer>
+    <p>by Troy Center, Coding Dojo May 22, 2017 Cohort, Seattle.</p>
+</footer>
+</html>
