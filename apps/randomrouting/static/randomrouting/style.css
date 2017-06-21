@@ -1,0 +1,36 @@
+/*******************************************************************/
+/* Created: June 21 2017 by Troy Center, troycenter1@gmail.com.     */
+/* CSS for the Django fundamentals assignment "Landscapes"      */
+/*******************************************************************/
+
+/***************************************************/
+/*               CSS reset settings                */
+/***************************************************/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/***************************************************/
+/*              Wrapper                            */
+/***************************************************/
+
+#wrapper {
+        background-image: linear-gradient(300deg,orange, white);
+        height: 1800px;
+        width: 1200px;
+        padding: 100px;
+}
+
+/***************************************************/
+/*       Footer, fine print, my signature          */
+/***************************************************/
+
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    font-size: .7em;
+    font-family: Arial, Helvetica, sans-serif;
+}
